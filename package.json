@@ -2,11 +2,14 @@
   "name": "clone-component",
   "version": "0.1.0",
   "dependencies": {
-    "type-component": "*"
+    "type-component": "0.0.1"
   },
   "devDependencies": {
     "mocha": "*",
     "expect.js": "*"
+  },
+  "browser": {
+    "type": "type-component"
   },
   "component": {
     "scripts": {
